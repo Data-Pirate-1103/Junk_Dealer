@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/option.css' %}">
+    <style>
+        body{
+            background-image: url("/static/img/option.jpeg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            backdrop-filter: blur(1.5px);
+        }
+</style>
+</head>
+<body>
+    <div class="button-container">
+        <H1>ARE YOU A:</H1>
+        <button class="button"><a href="/signup" style="text-decoration: none; color: white;"> CUSTOMER </a></button>
+        <H2>OR</H2>
+        <button class="button"><a href="/contactus" style="text-decoration: none; color: white;"> DEALER</a></button>
+    </div>
+</body>
+</html>

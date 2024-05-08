@@ -1,0 +1,8 @@
+<h1>OUR DEALERS</h1>
+
+{% for item in all %}
+    {{ item.user }}<br/>
+    Email: {{ item.email}}<br/>
+    Phone Number: {{item.ph_number}}<br/>
+    <hr>
+{% endfor %}     
